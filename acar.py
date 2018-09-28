@@ -11,6 +11,7 @@ from sklearn.preprocessing import LabelEncoder
 from sklearn.metrics import precision_score, recall_score, f1_score
 from datetime import datetime
 
+##Read data
 df = pd.read_csv("ACAR_INSURANCE.csv")
 
 ##Data Imputation
